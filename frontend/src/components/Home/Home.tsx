@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import "./Home.css";
 
 export default function Home() {
   useEffect(() => {
@@ -6,7 +7,7 @@ export default function Home() {
   });
 
   return (
-    <section className="container mt-5">
+    <section className="container d-flex justify-content-center mt-5">
       <h1>Crickets Studios</h1>
     </section>
   );
